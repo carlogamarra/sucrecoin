@@ -25,6 +25,9 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0,     std::make_pair(hashGenesisBlock, 1533451800) )
+        ( 10, std::make_pair(uint256("0xdb0f55e2f289e94215ab92e49ca40d63d12c3186ed8935c7dc261426163e4865"), 1533451626) )
+        ( 17440, std::make_pair(uint256("0x03f933886b0694feb79ed59b8eb2e4448f1cee7e0f01e9a722709e8749709948"), 1535005749) )
+	      ( 23133, std::make_pair(uint256("0xf52d68e6dd4ee298dedfb694484341833ac7535d5c11e864cae087208909e934"), 1535442362) )
 
     ;
 

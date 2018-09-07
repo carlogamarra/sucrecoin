@@ -1192,12 +1192,24 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"sucrseed0", "node.sucrecoin.org"},
+    {"sucrseed0", "explorer.sucrecoin.org"},
     {"sucrseed1", "apps.sucrecoin.org"},
     {"sucrseed2", "ecx.sucrecoin.org"},
     {"sucrseed3", "latam.sucrecoin.org"},
     {"sucrseed4", "dev.sucrecoin.org"},
     {"sucrseed5", "nodo.sucrecoin.org"},
+    {"sucrseed6", "node1.sucrecoin.org"},
+    {"sucrseed7", "node2.sucrecoin.org"},
+    {"sucrseed8", "node3.sucrecoin.org"},
+    {"sucrseed9", "node4.sucrecoin.org"},
+    {"sucrseed10", "node5.sucrecoin.org"},
+    {"sucrseed11", "node6.sucrecoin.org"},
+    {"sucrseed12", "node7.sucrecoin.org"},
+    {"sucrseed13", "node8.sucrecoin.org"},
+    {"sucrseed14", "node9.sucrecoin.org"},
+    {"sucrseed15", "node10.sucrecoin.org"},
+
+   
 };
 
 void ThreadDNSAddressSeed(void* parg)
