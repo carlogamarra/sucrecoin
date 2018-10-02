@@ -1,4 +1,0 @@
-obj/netbase.o: netbase.cpp util.h uint256.h netbase.h serialize.h \
- allocators.h version.h clientversion.h compat.h sync.h strlcpy.h
-netbase.cpp util.h uint256.h netbase.h serialize.h :
- allocators.h version.h clientversion.h compat.h sync.h strlcpy.h :
