@@ -1,0 +1,20 @@
+obj/checkpoints.o: checkpoints.cpp checkpoints.h main.h bignum.h util.h \
+ uint256.h netbase.h serialize.h allocators.h version.h clientversion.h \
+ compat.h sync.h net.h mruset.h protocol.h addrman.h script.h keystore.h \
+ crypter.h key.h neoscrypt.h txdb.h leveldb.h \
+ /root/sucrecoind/src/leveldb/include/leveldb/db.h \
+ /root/sucrecoind/src/leveldb/include/leveldb/iterator.h \
+ /root/sucrecoind/src/leveldb/include/leveldb/slice.h \
+ /root/sucrecoind/src/leveldb/include/leveldb/status.h \
+ /root/sucrecoind/src/leveldb/include/leveldb/options.h \
+ /root/sucrecoind/src/leveldb/include/leveldb/write_batch.h
+checkpoints.cpp checkpoints.h main.h bignum.h util.h :
+ uint256.h netbase.h serialize.h allocators.h version.h clientversion.h :
+ compat.h sync.h net.h mruset.h protocol.h addrman.h script.h keystore.h :
+ crypter.h key.h neoscrypt.h txdb.h leveldb.h :
+ /root/sucrecoind/src/leveldb/include/leveldb/db.h :
+ /root/sucrecoind/src/leveldb/include/leveldb/iterator.h :
+ /root/sucrecoind/src/leveldb/include/leveldb/slice.h :
+ /root/sucrecoind/src/leveldb/include/leveldb/status.h :
+ /root/sucrecoind/src/leveldb/include/leveldb/options.h :
+ /root/sucrecoind/src/leveldb/include/leveldb/write_batch.h :
