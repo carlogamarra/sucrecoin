@@ -28,7 +28,8 @@ namespace Checkpoints
         ( 10, std::make_pair(uint256("0xdb0f55e2f289e94215ab92e49ca40d63d12c3186ed8935c7dc261426163e4865"), 1533451626) )
         ( 17440, std::make_pair(uint256("0x03f933886b0694feb79ed59b8eb2e4448f1cee7e0f01e9a722709e8749709948"), 1535005749) )
 	      ( 23133, std::make_pair(uint256("0xf52d68e6dd4ee298dedfb694484341833ac7535d5c11e864cae087208909e934"), 1535442362) )
-( 48394, std::make_pair(uint256("0xd890bf9c6a94abd97a7a9c90cdf8fdf532eeaf4c31ed75c1200c136be03e853f"), 1538501260) )
+	    ( 48394, std::make_pair(uint256("0x93fa85d1c1a02a6763d11b1ec8e61898f60d170c7240db02af09cbe146a87aeb"), 1538501260) )
+
     ;
 
     // TestNet has no checkpoints
